@@ -31,6 +31,7 @@ h2 {
   font-size: 2rem;
   color: #6f00e7;
   font-weight: bold;
+  text-align: center;
 }
 
 span {
@@ -47,4 +48,8 @@ div {
   margin: 0 auto 0 0;
   padding: .5em 1.5em .7em
   display: flex
+}
+
+li p {
+  text-align: center;
 }
