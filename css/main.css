@@ -7,22 +7,17 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-
 ol {
-  font-size: 1.4rem;
-  line-height: 1.5;
   display: grid;
-  grid-gap: 1rem;
   grid-template-columns: 1fr 1fr;
-  list-style: none;
-  margin: 0;
 }
-
-li {
+ol li{
   margin: 0;
   padding: 1rem;
   border: 3px solid #987ffa;
   border-radius: 6px;
+  text-decoration: none;
+  list-style: none;
 }
 
 h2 {
@@ -33,23 +28,9 @@ h2 {
   text-align: center;
 }
 
-span {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-}
+ol p
 
-div {
-  background-color: #6f00e7;
-  font-family: 'oswald', sans-serif;
-  color: white;
-  border-radius: 3em;
-  margin: 0 auto 0 0;
-  padding: .5em 1.5em .7em;
+ul li {
   display: flex;
-  align-items: center;
-}
-
-li p {
-  text-align: center;
+  flex-direction: row;
 }
